@@ -1,0 +1,47 @@
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de Cache e Compilação do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de Ambiente
+.env
+.env.*
+!.env.example
+
+# Configurações de IDE (VSCode, PyCharm, etc)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do PySpark / Hadoop
+spark-warehouse/
+metastore_db/
+derby.log
+logs/
+checkpoints/
+*.crc
+
+# Testes e Cobertura (Pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Arquivos de Dados (opcional: prevê não commitar JSONs / Parquets grandes por engano)
+*.parquet
+*.csv
+# *.json # Descomente se não quiser subir nenhum JSON pro repositório
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+
